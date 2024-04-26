@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bglogin"
+    tools:context=".UpdateMahasiswa">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="290dp"
+            android:layout_height="60dp"
+            android:fontFamily="serif"
+            android:text="Update Data"
+            android:layout_marginTop="50dp"
+            android:textSize="40dp"
+            android:textAlignment="center"
+            android:textStyle="bold" />
+
+        <EditText
+            android:layout_width="290dp"
+            android:layout_height="60dp"
+            android:id="@+id/editTextNIM"
+            android:background="@drawable/lavender_border"
+            android:padding="8dp"
+            android:layout_marginTop="15dp"
+            android:hint="NIM"
+            android:drawablePadding="8dp"/>
+
+        <EditText
+            android:layout_width="290dp"
+            android:layout_height="60dp"
+            android:id="@+id/editTextNama"
+            android:background="@drawable/lavender_border"
+            android:layout_marginTop="20dp"
+            android:padding="8dp"
+            android:hint="Nama"
+            android:drawablePadding="8dp"/>
+
+        <EditText
+            android:layout_width="290dp"
+            android:layout_height="60dp"
+            android:id="@+id/editTextJenisKelamin"
+            android:background="@drawable/lavender_border"
+            android:layout_marginTop="20dp"
+            android:padding="8dp"
+            android:hint="Jenis Kelamin"
+            android:drawablePadding="8dp"/>
+
+        <EditText
+            android:layout_width="290dp"
+            android:layout_height="60dp"
+            android:id="@+id/editTextPerguruanTinggi"
+            android:background="@drawable/lavender_border"
+            android:layout_marginTop="20dp"
+            android:padding="8dp"
+            android:hint="Perguruan Tinggi"
+            android:drawablePadding="8dp"/>
+
+        <EditText
+            android:layout_width="290dp"
+            android:layout_height="60dp"
+            android:id="@+id/editTextProdi"
+            android:background="@drawable/lavender_border"
+            android:layout_marginTop="20dp"
+            android:padding="8dp"
+            android:hint="Prodi"
+            android:drawablePadding="8dp"/>
+
+    </LinearLayout>
+</ScrollView>
